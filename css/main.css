@@ -25,6 +25,10 @@ nav ul {
   color: #93a1a1;
 }
 
-div.dfn p strong:nth-child(2) {
+#facts .dfn p strong:nth-child(2) {
   color: #fff;
+}
+
+html header nav ul mark {
+  background-color: #719e07;
 }

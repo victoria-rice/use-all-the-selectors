@@ -32,3 +32,27 @@ nav ul {
 html header nav ul mark {
   background-color: #719e07;
 }
+
+main ul rel="external {
+  background-color: #2694d8;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+ul .types:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+ul .types:nth-child(even) {
+  background-color: #586e75;
+}
+
+ul .types:nth-child(3n) {
+  background-color: #d04b16;
+}

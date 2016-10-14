@@ -33,11 +33,11 @@ html header nav ul mark {
   background-color: #719e07;
 }
 
-main ul rel="external {
+ul [rel="external] {
   background-color: #2694d8;
 }
 
-ol li:first-child {
+main ol li:first-child {
   color: #719e47;
 }
 

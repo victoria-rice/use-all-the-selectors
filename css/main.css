@@ -5,10 +5,26 @@ header, footer{
   font-size: 1.5rem;
 }
 
-header h1 {
+.logo {
   text-transform: uppercase;
 }
 
 nav ul {
   font-family: sans-serif;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
+div.dfn p strong:nth-child(2) {
+  color: #fff;
 }

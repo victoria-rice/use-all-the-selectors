@@ -1,7 +1,8 @@
 body {
   background-color: #fdf6e3;
 }
-header, footer{
+
+header, footer {
   font-size: 1.5rem;
 }
 
@@ -25,7 +26,7 @@ nav ul {
   color: #93a1a1;
 }
 
-#facts .dfn p strong:nth-child(2) {
+p + strong {
   color: #fff;
 }
 
@@ -33,11 +34,11 @@ html header nav ul mark {
   background-color: #719e07;
 }
 
-ul [rel="external] {
+a[rel="external"] {
   background-color: #2694d8;
 }
 
-main ol li:first-child {
+ol li:first-child {
   color: #719e47;
 }
 
@@ -45,14 +46,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-ul .types:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-ul .types:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-ul .types:nth-child(3n) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
